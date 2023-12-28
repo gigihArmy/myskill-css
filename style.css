@@ -1,0 +1,190 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    background: rgb(166, 126, 193);
+    background: linear-gradient(
+      135deg,
+      rgb(85, 85, 85) 0%,
+      rgb(144, 144, 150) 50%,
+      rgb(140, 135, 144) 100%
+    );
+    padding: 30px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 5px 3px 4px 0 rgb(127, 127, 127);
+}
+
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.holderImgProfile{
+    flex: 1;
+    text-align: center;
+}
+
+.imgProfile{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(107, 99, 99);
+    border-radius: 100%;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.imgProfile:hover{
+    width: 220px;
+    height: 220px;
+    border: 0px;
+}
+
+.holderDetailProfile{
+    flex: 2;
+    padding-left: 20px;
+}
+
+.nameProfile{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+
+.titleProfile{   
+    font-size: 36px;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 10px 0 0;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all;
+    transition-duration: 0.2s;
+  }
+  .button.download {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.button.hire {
+    background-color: #666667;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #666667;
+  }
+  .button.download:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+  }
+  .button.hire:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+  }
+
+main{
+    background: white;
+}
+
+.contentHolder {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.barContainer {
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(235, 233, 233);
+    position: relative;
+}
+
+.barFilling {
+    position: absolute;
+    height: 30px;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.html {
+    background-color: rgb(85, 85, 85);
+    width: 80%;
+}
+  
+.css {
+    background-color: rgb(144, 144, 150);
+    width: 75%;
+}
+  
+.js {
+    background-color:rgb(140, 135, 144);
+    width: 65%;
+}
+  
+.subContent {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(53, 53, 53);
+}
+  
+h1{
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.skillBar {
+    display: block;
+    margin: 10px 0;
+}
+  
+ul.workEx li {
+    font-size: 20px;
+    padding: 10px 0;
+}
+  
+ul.workEx li:first-child {
+    padding-top: 0;
+}
+  
+span strong {
+    color: #1eb574;
+}
+  
+.subWorkEx {
+    font-size: 16px;
+    color: rgb(66, 66, 66);
+    font-weight: 400;
+}
+  
+footer {
+    background-color: rgb(76, 75, 75);
+    text-align: center;
+}
+
+.footerHolder {
+    padding: 10px;
+}
+  
+.footerName {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
